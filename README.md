@@ -8,6 +8,15 @@
   A Claude Code skill: <b>Ollama Cloud API reference for LLM agents</b>.
 </p>
 
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"/></a>
+  <img src="https://img.shields.io/badge/for-Claude_Code-skill-DA7756.svg" alt="Made for Claude Code"/>
+  <img src="https://img.shields.io/badge/works_with-Ollama_Cloud-000000?logo=ollama&logoColor=white" alt="Works with Ollama Cloud"/>
+  <img src="https://img.shields.io/badge/APIs-native_%7C_OpenAI_%7C_Anthropic-informational" alt="Native, OpenAI and Anthropic compatible APIs"/>
+  <img src="https://img.shields.io/badge/local_install-not_required-success" alt="No local Ollama install required"/>
+  <img src="https://img.shields.io/badge/streaming-NDJSON_%2F_SSE-lightgrey" alt="Streaming: NDJSON and SSE"/>
+</p>
+
 ---
 
 ## Why
@@ -23,6 +32,8 @@ calls Ollama — especially Ollama Cloud.
 ```
 skillama-api/
 ├── SKILL.md                      # core facts + quickstart (loaded into context on invoke)
+├── LICENSE                       # MIT
+├── logo.png
 └── references/                   # read on demand
     ├── native-api.md             # /api/chat, /api/generate, /api/embed, NDJSON streaming,
     │                             # thinking (`think`, `message.thinking`), tool calling
@@ -80,3 +91,12 @@ The model list and docs drift. The skill instructs agents to:
 - verify against https://docs.ollama.com (index: https://docs.ollama.com/llms.txt)
 - fetch live model names via `GET https://ollama.com/api/tags`
 - check usage/balance limits at https://ollama.com/pricing
+
+## License
+
+MIT — see [LICENSE](LICENSE).
+
+> Ollama is a trademark of Ollama Inc., and Claude is a trademark of Anthropic, PBC.
+> This project is an independent reference created for developer convenience; it is not
+> affiliated with, endorsed by, or connected to either company. Model documentation
+> summarized here belongs to Ollama and links to the original pages are always given.

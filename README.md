@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="logo.png" alt="Ollama" width="120"/>
+  <img src="logo.png" alt="Ollama" width="85%"/>
 </p>
 
 <h1 align="center">skillama-api</h1>

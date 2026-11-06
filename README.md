@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue.svg" alt="License: MIT"/></a>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/Zhussup/skillama-api.svg" alt="License: MIT"/></a>
   <img src="https://img.shields.io/badge/for-Claude_Code-skill-DA7756.svg" alt="Made for Claude Code"/>
   <img src="https://img.shields.io/badge/works_with-Ollama_Cloud-000000?logo=ollama&logoColor=white" alt="Works with Ollama Cloud"/>
   <img src="https://img.shields.io/badge/APIs-native_%7C_OpenAI_%7C_Anthropic-informational" alt="Native, OpenAI and Anthropic compatible APIs"/>
